@@ -7,115 +7,12 @@ const Footer = () => {
   return (
     <footer className="">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 gap-8 py-8 md:grid-cols-4">
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase ">
-              Company
-            </h2>
-            <ul className="text-gray-500 ">
-              <li className="mb-4">
-                <a href="#" className=" hover:underline">
-                  About
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Careers
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Brand Center
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Blog
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase ">
-              Help center
-            </h2>
-            <ul className="text-gray-500 ">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Discord Server
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Twitter
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Facebook
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase ">
-              Legal
-            </h2>
-            <ul className="text-gray-500 ">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Licensing
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Terms &amp; Conditions
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-500 uppercase ">
-              Download
-            </h2>
-            <ul className="text-gray-500 ">
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  iOS
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Android
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  Windows
-                </a>
-              </li>
-              <li className="mb-4">
-                <a href="#" className="hover:underline">
-                  MacOS
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
         <div className="p-6 bg-gray-100  md:flex md:items-center md:justify-between">
           <p className="text-2xl text-gray-500 justify-center sm:text-center flex flex-wrap">
             © {new Date().getFullYear()}{" "}
-            <Link to="/" className="text-center inline-flex items-center">
+            <Link
+              to="/"
+              className="text-center inline-flex items-center mx-1 gap-1">
               <img
                 src={logo}
                 className="w-6 h-6"
@@ -125,7 +22,7 @@ const Footer = () => {
               />
               <span className="flex gap-1 text-2xl">{APP_NAME}</span>
             </Link>
-            all rights reserved.
+            <span className="">all rights reserved.</span>
           </p>
           <div className="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" className="text-gray-400 hover:text-gray-900 ">
