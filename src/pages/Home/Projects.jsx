@@ -25,10 +25,10 @@ const Projects = () => {
                 />
               </picture>
             </figure>
-            <div class="z-0 col-start-1 lg:col-start-7 col-end-[-1] row-start-1 row-end-[-1] ">
+            <div className="z-0 col-start-1 lg:col-start-7 col-end-[-1] row-start-1 row-end-[-1] ">
               <div className="flex flex-col gap-4 items-end ">
-                <p class="bg-purple-400 px-2 py-1 ">Featured Project</p>
-                <h3 class="text-2xl">
+                <p className="bg-purple-400 px-2 py-1 ">Featured Project</p>
+                <h3 className="text-2xl">
                   <a
                     href="https://xtra-equip.web.app"
                     rel="noopener noreferrer"
@@ -36,11 +36,11 @@ const Projects = () => {
                     Xtra Equip
                   </a>
                 </h3>
-                <div class="w-full flex flex-col gap-1 bg-slate-300 bg-opacity-80 rounded-lg shadow  p-4">
+                <div className="w-full flex flex-col gap-1 bg-slate-300 bg-opacity-80 rounded-lg shadow  p-4">
                   <p className="">
                     A place to buy and sell all the used fitness equipment.
                   </p>
-                  <ul class="flex flex-col list-disc pl-4 ">
+                  <ul className="flex flex-col list-disc pl-4 ">
                     <li>Role-based user login and registration</li>
                     <li>Protected routes and Dashboard based on user roles</li>
                     <li>
@@ -49,7 +49,7 @@ const Projects = () => {
                     </li>
                   </ul>
                 </div>
-                <ul class="flex flex-wrap gap-2 items-center justify-end text-sm w-full">
+                <ul className="flex flex-wrap gap-2 items-center justify-end text-sm w-full">
                   <li className="bg-purple-200 px-2 py-1"> Authentication</li>
                   <li className="bg-purple-200 px-2 py-1"> React router dom</li>
                   <li className="bg-purple-200 px-2 py-1"> tanstack query</li>
@@ -61,7 +61,7 @@ const Projects = () => {
                   <li className="bg-purple-200 px-2 py-1"> JWT</li>
                   <li className="bg-purple-200 px-2 py-1"> Axios</li>
                 </ul>
-                <div class="flex flex-wrap gap-4 items-center">
+                <div className="flex flex-wrap gap-4 items-center">
                   <a
                     href="https://xtra-equip.web.app"
                     aria-label="GitHub Link"
@@ -79,7 +79,7 @@ const Projects = () => {
                   <a
                     href="https://github.com/bilashism/xtra-equip-server"
                     aria-label="External Link"
-                    class="external"
+                    className="external"
                     rel="noopener noreferrer"
                     target="_blank">
                     📦 Server

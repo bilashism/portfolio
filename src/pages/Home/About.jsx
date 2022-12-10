@@ -50,9 +50,11 @@ const About = () => {
                 </div>
               </div>
               <div className="py-3 ">
-                <button className="capitalize border-2 border-purple-300 inline-flex items-center justify-center text-lg py-2 px-4 text-center bg-white font-bold  hover:border-purple-600 hover:text-purple-600 shadow-sm transition-colors">
+                <a
+                  href="#contact"
+                  className="capitalize border-2 border-purple-300 inline-flex items-center justify-center text-lg py-2 px-4 text-center bg-white font-bold  hover:border-purple-600 hover:text-purple-600 shadow-sm transition-colors">
                   contact me
-                </button>
+                </a>
               </div>
             </div>
           </div>
