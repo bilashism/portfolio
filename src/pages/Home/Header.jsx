@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="py-10">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 items-center">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 items-center min-h-[75vh]">
           <figure className="mx-auto text-center relative">
             <picture className="max-w-lg flex items-center justify-center">
               <source srcSet={avatarImg} />
