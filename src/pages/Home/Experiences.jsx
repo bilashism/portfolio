@@ -21,18 +21,18 @@ const Experiences = () => {
                   <span className="text-purple-600 font-bold">
                     Web Developer
                   </span>
-                  <span class="">
+                  <span className="">
                     &nbsp;@&nbsp;
                     <a
                       href="#"
-                      class=""
+                      className=""
                       rel="noopener noreferrer"
                       target="_blank">
                       Tutor Lim
                     </a>
                   </span>
                 </h3>
-                <p class="mb-2">Sep 2021 - Dec 2022</p>
+                <p className="mb-2">Sep 2021 - Dec 2022</p>
                 <p className="">
                   To create new features, and pages and maintain websites using
                   Hubspot and Squarespace. Daily work includes Javascript,
@@ -45,18 +45,18 @@ const Experiences = () => {
                   <span className="text-purple-600 font-bold">
                     Trainer - Web Development
                   </span>
-                  <span class="">
+                  <span className="">
                     &nbsp;@&nbsp;
                     <a
                       href="#"
-                      class=""
+                      className=""
                       rel="noopener noreferrer"
                       target="_blank">
                       LEDP by ICT Division
                     </a>
                   </span>
                 </h3>
-                <p class="mb-2">Sep - Nov 2020</p>
+                <p className="mb-2">Sep - Nov 2020</p>
                 <p className="">
                   I was a trainer for the web development section with 38
                   students. My job was to guide the students to learn

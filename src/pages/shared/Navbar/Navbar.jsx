@@ -27,7 +27,7 @@ const Navbar = () => {
       <img
         src={logo}
         alt={`${APP_NAME} logo`}
-        className="w-16 h-16 mx-auto"
+        className="w-16 h-16 mx-auto object-cover"
         width="64"
         height="64"
         decoding="async"
@@ -81,9 +81,9 @@ const Navbar = () => {
         {/* Code block starts */}
         <nav className="w-full mx-auto hidden xl:block bg-gray-50 shadow">
           <div className="container px-4 justify-between h-16 flex items-center lg:items-stretch mx-auto">
-            <div className="h-full flex items-center">
+            <div className="h-full flex items-center lg:w-full">
               <div className="mr-10 flex items-center">{logoItem}</div>
-              <ul className="pr-12 xl:flex items-center h-full hidden capitalize">
+              <ul className="pr-12 lg:pr-0 xl:flex items-center h-full hidden capitalize lg:w-full lg:justify-end">
                 {menuItems}
               </ul>
             </div>
