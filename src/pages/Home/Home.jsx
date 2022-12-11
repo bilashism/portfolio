@@ -4,7 +4,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Experiences from "./Experiences";
 import Header from "./Header";
-import Projects from "./Projects";
+import FeaturedProjects from "./FeaturedProjects";
 
 const Home = () => {
   useTitle("Md. Taifuzzaman Bilash - MERN Stack Developer");
@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <About />
       <Experiences />
-      <Projects />
+      <FeaturedProjects />
       <Contact />
     </>
   );

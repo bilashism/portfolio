@@ -1,7 +1,7 @@
 import React from "react";
 import xtraEquipImg from "../../images/xtra-equip.png";
 
-const Projects = () => {
+const FeaturedProjects = () => {
   return (
     <section className="">
       <div className="container mx-auto px-4">
@@ -94,4 +94,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default FeaturedProjects;
