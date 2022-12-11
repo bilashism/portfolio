@@ -18,10 +18,10 @@
       "server": "https://github.com/bilashism/xtra-equip-server"
     },
     "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
+      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
       "featured": [
         "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
         "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
       ]
     },
@@ -30,249 +30,81 @@
       "Role-based user login and registration",
       "Protected routes and Dashboard based on user roles",
       "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
+      "Beautiful and responsive dashboard",
+      "Easy advertisement setup"
     ]
   },
   {
     "_id": 2,
     "isFeatured": true,
-    "name": "Xtra Equip 2",
+    "name": "Nyra Fit",
     "technologies": [
-      "Authentication",
+      "Tailwind",
+      "React",
+      "Firebase",
       "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
+      "express",
+      "vite",
+      "react-photo-view",
       "JWT",
-      "Axios"
+      "MongoDB"
     ],
     "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
+      "website": "https://nyra-fit.web.app",
+      "client": "https://github.com/bilashism/nyra-fit",
+      "server": "https://github.com/bilashism/nyra-fit-server"
     },
     "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
+      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/nyra-fit/Screenshot__140_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782343774",
       "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/nyra-fit/Screenshot__143_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782343217",
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/nyra-fit/Screenshot__142_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782343183",
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/nyra-fit/Screenshot__141_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782343985"
       ]
     },
-    "description": "A place to buy and sell all the used fitness equipment.",
+    "description": "A personal fitness trainer website for selling services.",
     "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
+      "User login and registration functionality",
+      "User authentication system with Google",
+      "JWT verification enabled",
+      "Promote personal services",
+      "Responsive UI"
     ]
   },
   {
     "_id": 3,
     "isFeatured": true,
-    "name": "Xtra Equip 3",
+    "name": "Devs Dojo",
     "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
+      "Tailwind",
+      "React",
+      "Firebase",
+      "MongoDB",
+      "jsPdf",
+      "express",
       "JWT",
-      "Axios"
+      "vite"
     ],
     "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
+      "website": "https://devs-dojo.web.app",
+      "client": "https://github.com/bilashism/devs-dojo",
+      "server": "https://github.com/bilashism/devs-dojo-server"
     },
     "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
+      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/devs-dojo/Screenshot__144_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782877084",
       "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/devs-dojo/Screenshot__145_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782878705",
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/devs-dojo/Screenshot__148_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782876935",
+        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/devs-dojo/Screenshot__146_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670782876883"
       ]
     },
-    "description": "A place to buy and sell all the used fitness equipment.",
+    "description": "Online learning platform for web developers.",
     "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
-    ]
-  },
-  {
-    "_id": 4,
-    "name": "Xtra Equip 4",
-    "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
-      "JWT",
-      "Axios"
-    ],
-    "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
-    },
-    "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
-      "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
-      ]
-    },
-    "description": "A place to buy and sell all the used fitness equipment.",
-    "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
-    ]
-  },
-  {
-    "_id": 5,
-    "name": "Xtra Equip 5",
-    "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
-      "JWT",
-      "Axios"
-    ],
-    "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
-    },
-    "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
-      "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
-      ]
-    },
-    "description": "A place to buy and sell all the used fitness equipment.",
-    "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
-    ]
-  },
-  {
-    "_id": 6,
-    "name": "Xtra Equip 6",
-    "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
-      "JWT",
-      "Axios"
-    ],
-    "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
-    },
-    "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
-      "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
-      ]
-    },
-    "description": "A place to buy and sell all the used fitness equipment.",
-    "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
-    ]
-  },
-  {
-    "_id": 7,
-    "name": "Xtra Equip 7",
-    "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
-      "JWT",
-      "Axios"
-    ],
-    "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
-    },
-    "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
-      "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
-      ]
-    },
-    "description": "A place to buy and sell all the used fitness equipment.",
-    "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
-    ]
-  },
-  {
-    "_id": 8,
-    "isFeatured": true,
-    "name": "Xtra Equip 8",
-    "technologies": [
-      "Authentication",
-      "React router dom",
-      "tanstack query",
-      "react hook from",
-      "react date picker",
-      "JWT",
-      "Axios"
-    ],
-    "links": {
-      "website": "https://xtra-equip.web.app",
-      "client": "https://github.com/bilashism/xtra-equip",
-      "server": "https://github.com/bilashism/xtra-equip-server"
-    },
-    "images": {
-      "display": "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__139_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761338877",
-      "featured": [
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__137_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339661",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__136_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761339179",
-        "https://ik.imagekit.io/ng2encrfl/bilash-portfolio/xtra-equip/Screenshot__138_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670761337575"
-      ]
-    },
-    "description": "A place to buy and sell all the used fitness equipment.",
-    "featureList": [
-      "Role-based user login and registration",
-      "Protected routes and Dashboard based on user roles",
-      "Sellers can manage their products, buyers can buy and admin can manage buyers and sellers",
-      "Another",
-      "List"
+      "User login and registration",
+      "Protected routes",
+      "Fully dynamic course content",
+      "User authentication system with Google and GitHub",
+      "Users can download course content as .pdf from respective course pages"
     ]
   }
 ]
