@@ -7,7 +7,7 @@ import { APP_NAME } from "../utilities/utilities";
  */
 const useTitle = pageName => {
   useEffect(() => {
-    document.title = `${pageName} - ${APP_NAME}`;
+    document.title = `${pageName}`;
   }, [pageName, APP_NAME]);
 };
 
