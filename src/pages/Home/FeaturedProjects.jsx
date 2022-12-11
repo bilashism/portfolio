@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import xtraEquipImg from "../../images/xtra-equip.png";
 
 const FeaturedProjects = () => {
@@ -87,6 +88,15 @@ const FeaturedProjects = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="inline-flex p-1 rounded bg-gradient-to-r from-rose-500 to-purple-500 hover:from-purple-500 hover:to-rose-500 transition-all ">
+            <Link
+              to="/projects"
+              className="px-6 py-2 text-blue-800 bg-white block text-center w-full first-letter:uppercase">
+              view all projects
+            </Link>
           </div>
         </div>
       </div>

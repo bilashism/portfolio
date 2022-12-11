@@ -1,7 +1,6 @@
 import React from "react";
 import useTitle from "../../hooks/useTitle";
 import About from "./About";
-import Contact from "./Contact";
 import Experiences from "./Experiences";
 import Header from "./Header";
 import FeaturedProjects from "./FeaturedProjects";
@@ -14,7 +13,6 @@ const Home = () => {
       <About />
       <Experiences />
       <FeaturedProjects />
-      <Contact />
     </>
   );
 };

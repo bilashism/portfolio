@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import logo from "../../../images/logo.webp";
 import { APP_NAME } from "../../../utilities/utilities";
 import { FaBlog, FaHome } from "react-icons/fa";
+import { MdOutlineWork, MdOutlineContactPage } from "react-icons/md";
+import { GrContactInfo } from "react-icons/gr";
 
 const Navbar = () => {
   const [show, setShow] = useState(null);
@@ -40,15 +42,33 @@ const Navbar = () => {
         <Link to={"/"} className="cursor-pointer flex items-center">
           {isMobile && <FaHome className="text-indigo-700 w-6 h-6" />}
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
-            Home
+            home
           </span>
         </Link>
+      </li>
+      <li className="">
+        <Link to={"/projects"} className="cursor-pointer flex items-center">
+          {isMobile && <MdOutlineWork className="text-indigo-700 w-6 h-6" />}
+          <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
+            projects
+          </span>
+        </Link>
+      </li>
+      <li className="">
+        <a href="#contact" className="cursor-pointer flex items-center">
+          {isMobile && (
+            <MdOutlineContactPage className="text-indigo-700 w-6 h-6" />
+          )}
+          <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
+            contact
+          </span>
+        </a>
       </li>
       <li className="">
         <Link to={"/blogs"} className="cursor-pointer flex items-center">
           {isMobile && <FaBlog className="text-indigo-700 w-6 h-6" />}
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
-            Blogs
+            blogs
           </span>
         </Link>
       </li>
@@ -63,7 +83,7 @@ const Navbar = () => {
           <div className="container px-4 justify-between h-16 flex items-center lg:items-stretch mx-auto">
             <div className="h-full flex items-center">
               <div className="mr-10 flex items-center">{logoItem}</div>
-              <ul className="pr-12 xl:flex items-center h-full hidden">
+              <ul className="pr-12 xl:flex items-center h-full hidden capitalize">
                 {menuItems}
               </ul>
             </div>
@@ -143,7 +163,7 @@ const Navbar = () => {
                         </div>
                       </div>
                     </div>
-                    <ul className="py-8">{menuItems}</ul>
+                    <ul className="py-8 capitalize">{menuItems}</ul>
                   </div>
                   <div className="w-full pt-4">
                     <div className="border-t border-gray-800"></div>
