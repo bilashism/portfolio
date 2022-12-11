@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Pagination, Autoplay } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import useIntersection from "../../hooks/useIntersection";
 
 const About = () => {
+  const sliderRef = useRef();
+  const isVisible = useIntersection(sliderRef, "0px");
+
   return (
     <section className="">
       <div className="container mx-auto px-4">
@@ -58,96 +62,98 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="">
-            <Swiper
-              slidesPerView={1}
-              centeredSlides={true}
-              initialSlide={0}
-              grabCursor={true}
-              loop={true}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true
-              }}
-              pagination={{
-                clickable: true
-              }}
-              modules={[Pagination, Autoplay]}
-              className="">
-              {/* expertise */}
-              <SwiperSlide className="pb-10 w-full">
-                <div className="">
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    React
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
+          <div className="" ref={sliderRef}>
+            {isVisible && (
+              <Swiper
+                slidesPerView={1}
+                centeredSlides={true}
+                initialSlide={0}
+                grabCursor={true}
+                loop={true}
+                autoplay={{
+                  delay: 1500,
+                  disableOnInteraction: false,
+                  pauseOnMouseEnter: true
+                }}
+                pagination={{
+                  clickable: true
+                }}
+                modules={[Pagination, Autoplay]}
+                className="">
+                {/* expertise */}
+                <SwiperSlide className="pb-10 w-full">
+                  <div className="">
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      React
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
 
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    JavaScript
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      JavaScript
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* comfortable */}
-              <SwiperSlide className="pb-10">
-                <div className="">
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Node.js
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
+                </SwiperSlide>
+                {/* comfortable */}
+                <SwiperSlide className="pb-10">
+                  <div className="">
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Node.js
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
 
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Express.js
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Express.js
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* familiar */}
-              <SwiperSlide className="pb-10">
-                <div className="">
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Typescript
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
+                </SwiperSlide>
+                {/* familiar */}
+                <SwiperSlide className="pb-10">
+                  <div className="">
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Typescript
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
 
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Redux
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Redux
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-              {/* tools */}
-              <SwiperSlide className="pb-10">
-                <div className="">
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Github
-                  </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
+                </SwiperSlide>
+                {/* tools */}
+                <SwiperSlide className="pb-10">
+                  <div className="">
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Github
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
 
-                  <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
-                    Vite.js
+                    <div className="mb-1 text-base font-medium text-purple-700 dark:text-purple-500">
+                      Vite.js
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
+                      <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
+                    </div>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5 mb-4 dark:bg-gray-700">
-                    <div className="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500 w-3/4"></div>
-                  </div>
-                </div>
-              </SwiperSlide>
-            </Swiper>
+                </SwiperSlide>
+              </Swiper>
+            )}
           </div>
         </div>
       </div>
