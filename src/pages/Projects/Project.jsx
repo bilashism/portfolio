@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Project = ({ project }) => {
+const Project = ({ project, isDetailed }) => {
   const {
     _id,
     name,
@@ -48,18 +48,30 @@ const Project = ({ project }) => {
             <p className="">{description}</p>
             <ul className="flex flex-col list-disc pl-4 ">
               {featureList.map((item, i) => {
-                if (i >= 3) return;
+                switch (isDetailed) {
+                  case true: {
+                    break;
+                  }
+
+                  default: {
+                    if (i >= 3) return;
+                    break;
+                  }
+                }
+
                 return <li key={`item-${i}`}>{item}</li>;
               })}
             </ul>
 
-            <div className="self-end inline-flex  p-px rounded bg-gradient-to-r from-rose-500 to-purple-500 hover:from-purple-500 hover:to-rose-500 transition-all group">
-              <Link
-                to={`/projects/${_id}`}
-                className="px-6 text-blue-800 bg-white block text-center w-full rounded first-letter:capitalize group-hover:text-purple-600">
-                view details
-              </Link>
-            </div>
+            {isDetailed || (
+              <div className="self-end inline-flex  p-px rounded bg-gradient-to-r from-rose-500 to-purple-500 hover:from-purple-500 hover:to-rose-500 transition-all group">
+                <Link
+                  to={`/projects/${_id}`}
+                  className="px-6 text-blue-800 bg-white block text-center w-full rounded first-letter:capitalize group-hover:text-purple-600">
+                  view details
+                </Link>
+              </div>
+            )}
           </div>
           <ul className="flex flex-wrap gap-2 items-center justify-center lg:justify-end text-sm w-full">
             {technologies?.map((item, i) => (

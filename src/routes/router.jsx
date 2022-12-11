@@ -3,6 +3,7 @@ import NotFound from "../components/NotFound";
 import Main from "../layouts/Main/Main";
 import Blogs from "../pages/Blogs/Blogs";
 import Home from "../pages/Home/Home";
+import ProjectDetails from "../pages/ProjectDetails/ProjectDetails";
 import Projects from "../pages/Projects/Projects";
 
 export const router = createBrowserRouter([
@@ -17,6 +18,11 @@ export const router = createBrowserRouter([
       {
         path: "/projects",
         element: <Projects />
+      },
+      ,
+      {
+        path: "/projects/:id",
+        element: <ProjectDetails />
       },
       {
         path: "/blogs",
