@@ -27,7 +27,7 @@ const ProjectDetails = () => {
           Project Details of{" "}
           <span className="text-purple-600">{project?.name}</span>
         </h2>
-        <div className="py-10 mb-8">
+        <div className="py-10 mb-8 bg-purple-100 rounded shadow-sm">
           <PhotoProvider>
             <div className="grid grid-cols-4 max-w-4xl mx-auto gap-8">
               {images.map((item, index) => (
@@ -35,7 +35,7 @@ const ProjectDetails = () => {
                   <img
                     src={item}
                     alt={project?.name}
-                    className="cursor-pointer drop-shadow"
+                    className="cursor-pointer drop-shadow rounded"
                   />
                 </PhotoView>
               ))}
