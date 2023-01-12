@@ -5,6 +5,7 @@ import { APP_NAME } from "../../../utilities/utilities";
 import { FaBlog, FaHome } from "react-icons/fa";
 import { MdOutlineWork, MdOutlineContactPage } from "react-icons/md";
 import { GrContactInfo } from "react-icons/gr";
+import { BiCodeCurly } from "react-icons/bi";
 
 const Navbar = () => {
   const [show, setShow] = useState(null);
@@ -23,16 +24,8 @@ const Navbar = () => {
   }, []);
 
   const logoItem = (
-    <Link to="/">
-      <img
-        src={logo}
-        alt={`${APP_NAME} logo`}
-        className="w-16 h-16 mx-auto object-cover"
-        width="64"
-        height="64"
-        decoding="async"
-        fetchpriority="low"
-      />
+    <Link to="/" className="group">
+      <BiCodeCurly className="fill-indigo-700 w-16 h-16 group-hover:fill-indigo-400 transition-colors duration-300" />
     </Link>
   );
 
@@ -40,7 +33,7 @@ const Navbar = () => {
     <>
       <li className="">
         <Link to={"/"} className="cursor-pointer flex items-center">
-          {isMobile && <FaHome className="text-indigo-700 w-6 h-6" />}
+          <FaHome className="text-indigo-700 w-6 h-6 xl:hidden" />
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
             home
           </span>
@@ -48,7 +41,7 @@ const Navbar = () => {
       </li>
       <li className="">
         <Link to={"/projects"} className="cursor-pointer flex items-center">
-          {isMobile && <MdOutlineWork className="text-indigo-700 w-6 h-6" />}
+          <MdOutlineWork className="text-indigo-700 w-6 h-6 xl:hidden" />
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
             projects
           </span>
@@ -56,9 +49,7 @@ const Navbar = () => {
       </li>
       <li className="">
         <a href="#contact" className="cursor-pointer flex items-center">
-          {isMobile && (
-            <MdOutlineContactPage className="text-indigo-700 w-6 h-6" />
-          )}
+          <MdOutlineContactPage className="text-indigo-700 w-6 h-6 xl:hidden" />
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
             contact
           </span>
@@ -66,7 +57,7 @@ const Navbar = () => {
       </li>
       <li className="">
         <Link to={"/blogs"} className="cursor-pointer flex items-center">
-          {isMobile && <FaBlog className="text-indigo-700 w-6 h-6" />}
+          <FaBlog className="text-indigo-700 w-6 h-6 xl:hidden" />
           <span className=" hover:text-indigo-700 xl:text-base text-base ml-3">
             blogs
           </span>
