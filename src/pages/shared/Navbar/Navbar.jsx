@@ -1,27 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../../images/logo.webp";
-import { APP_NAME } from "../../../utilities/utilities";
 import { FaBlog, FaHome } from "react-icons/fa";
 import { MdOutlineWork, MdOutlineContactPage } from "react-icons/md";
-import { GrContactInfo } from "react-icons/gr";
 import { BiCodeCurly } from "react-icons/bi";
 
 const Navbar = () => {
   const [show, setShow] = useState(null);
-  const [isMobile, setIsMobile] = useState(
-    !window.matchMedia(`(min-width: 1280px)`).matches
-  );
-
-  useEffect(() => {
-    const cleanup = () =>
-      window.addEventListener("resize", () => {
-        setIsMobile(!window.matchMedia(`(min-width: 1280px)`).matches);
-        setShow(null);
-      });
-
-    return () => cleanup();
-  }, []);
 
   const logoItem = (
     <Link to="/" className="group">
