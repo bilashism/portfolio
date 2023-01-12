@@ -43,9 +43,11 @@ const Header = () => {
               />
             </div>
             <p className="text-lg">
-              Delivering pixel-perfect and well-performant websites with the
-              latest technologies. I've got 3 years of hands-on experience in
-              Front-End Web Development.
+              Translating your ideas into code for the end user that you target.
+              Delivering high quality and well-performant websites that solves
+              your business problem with the latest technologies like React.js,
+              Node.js, MongoDB, Express.js, Tailwind, Bootstrap etc. I've got 3
+              years of hands-on experience in Front-End Web Development.
             </p>
 
             <div className="flex flex-wrap items-center capitalize gap-4">
